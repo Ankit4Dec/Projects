@@ -91,3 +91,73 @@ body {
     margin: 8px;
     text-transform: uppercase;
 }
+
+.card .social{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    background-color: #1f1b1b;
+    position: absolute;
+    left: 0;
+    transition: all 0.5s ease 0s
+}
+
+.card .social li{
+    display: inline-block;
+}
+
+.card .social li a{
+    display: block;
+    padding: 10px;
+    font-size: 17px;
+    color: #fff;
+    transition: all 0.3s ease 0s;
+    text-decoration: none;
+}
+
+.card .social li a:hover{
+    color: #3e3b44;
+    background-color: #f7f5ec;
+    transition: 0.5s;
+}
+.card .social{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    background-color: #1f1f1b;
+    position: absolute;
+    bottom: -100px;
+    left: 0;
+    transition: all 0.5s ease 0s;
+}
+
+.card:hover .social{
+    bottom: 0;    
+}
+
+.skills{
+    text-align: left;
+    padding: 15px;
+}
+
+.skills ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.skills ul li{
+    border: 1px solid #1f1b1b;
+    border-radius: 2px;
+    display: inline-block;
+    font-size: 12px;
+    margin: 0 7px 7px 0;
+    padding: 7px;
+}
+
+.skills ul li:hover{
+    background-color: #1f1b1b;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.5s;
+}
